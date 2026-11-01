@@ -37,6 +37,7 @@ the campaign window is open.
 - Mined, reverted claim: [`0x8c84a9e4ebc04a27c87802707ed038758537ed8ee6e95473142f9e4b15c342cf`](https://explorer.testnet.somnia.network/tokyo/tx/0x8c84a9e4ebc04a27c87802707ed038758537ed8ee6e95473142f9e4b15c342cf)
 - `debug_traceCall` of `claim()`: proxy DELEGATECALL to `0x9657f0fd…2b43`, output `0x3e31dcc2`, gasUsed `0x367` in the implementation.
 - `cast sig "SelfClaimDisabled()"` = `0x3e31dcc2`.
+- Re-checked 1 Nov 2026 18:49 CET (17:49 UTC): `eth_call` of `claim()` from `0x…dEaD` still returns `0x3e31dcc2`.
 
 Suggested fix: update the developer page (claim through Perps Arena, or how a bot key gets margin: Link a Bot to an
 Arena wallet), and remove the direct-claim snippet while self-claim is off.

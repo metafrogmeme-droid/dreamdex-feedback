@@ -12,6 +12,8 @@ in the bounty template.
 | [getPerpVoucherEligibility returns eligible: true while every claim reverts](feedback/sdk-voucher-eligibility-ignores-self-claim.md) | major | SDK |
 | [SDK error ABI has no SelfClaimDisabled](feedback/sdk-error-abi-missing-self-claim-disabled.md) | normal | SDK |
 | [SignerRequiredError hint: an account address still fails](feedback/sdk-signer-required-account-hint.md) | normal | SDK |
+| [getMarginAccount: equity drops by collateral locked for resting orders; activePerpPools lists pools with no position](feedback/sdk-margin-account-equity-excludes-locked-collateral.md) | normal | SDK |
+| [Bounty lists Somnia Agents as a plus, but the Agents platform is not deployed on Tokyo testnet](feedback/docs-somnia-agents-not-on-tokyo.md) | normal | docs |
 
 Environment: `@somnia-chain/markets-sdk` 0.32.1, Somnia Tokyo testnet (chain 50383), 1 Nov 2026.
 
